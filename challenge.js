@@ -21,7 +21,7 @@ function displayProjects() {
 
 function findAllUnorderedListElements() {
   
-  let results = document.getElementById("projects")
+  let results = document.querySelectorAll("projects")
   return results;
   
 }
