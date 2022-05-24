@@ -21,7 +21,7 @@ function displayProjects() {
 
 function findAllUnorderedListElements() {
   
-  let results = document.querySelectorAll("projects")
+  let results = document.querySelectorAll(".social-media-links")
   return results;
   
 }
