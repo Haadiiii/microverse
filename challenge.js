@@ -31,7 +31,7 @@ function prepareProjects(firstProject, secondProject, thirdProject) {
   let list = [firstProject,secondProject,thirdProject]
   list.forEach((value,index) =>{
     if(value.length > 20){
-      results += "<p>"+value+"</P></brr>"
+      results += "<p>"+value+"</P></br>"
     } else{
       results += "<span>"+value+"</span>"+"<br>"
       
